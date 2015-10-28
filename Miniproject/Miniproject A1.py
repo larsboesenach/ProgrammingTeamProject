@@ -48,22 +48,47 @@ def Gui2():
     buttonzoek.place(relx=.4, rely=.3, anchor="sw")
 
 
-
-
-
-
 def callback():
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
+
+
     try:
-        return info_dict ['ReisMogelijkheden']['ReisMogelijkheid'][0]['AankomstVertraging']
+        return "Vertraging: " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['AankomstVertraging'] + "\n"
 
     except:
-        a = 'Geen'
+        a = ("Geen vertraging" + "\n")
         return a
+
+def overstappen():
+
+    url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
+    infonaam = 'informatie.xml'
+    datainfo = url.content.decode('utf-8')
+    info_dict = verwerk_xml(infonaam)
+    schrijf_xml(datainfo,infonaam)
+    return "Overstappen: " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['AantalOverstappen'] + "\n"
+
+def traj():
+    url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
+    infonaam = 'informatie.xml'
+    datainfo = url.content.decode('utf-8')
+    schrijf_xml(datainfo,infonaam)
+
+    a = "Traject: " + str(E2.get()) + " - " + str(E1.get()) + "\n"
+    return a
+
+def vtt():
+    url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
+    infonaam = 'informatie.xml'
+    datainfo = url.content.decode('utf-8')
+    info_dict = verwerk_xml(infonaam)
+    schrijf_xml(datainfo,infonaam)
+    return "Actuele vertrektijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleVertrekTijd'] + "\n"
+
 
 
 def beidefunctie():
@@ -75,8 +100,10 @@ def textinfo():
     E4 = Text(window2,height =15 , width = 50,bg = 'blue',foreground = 'white')
     E4.place(x=200, y=200, anchor=NW)
     E4.pack
+    E4.insert(END,traj())
+    E4.insert(END,overstappen())
+    E4.insert(END,vtt())
     E4.insert(END,callback())
-    E4.insert(END,' vertraging ')
 
 
 
