@@ -48,6 +48,7 @@ def Gui2():
     buttonzoek.place(relx=.4, rely=.3, anchor="sw")
 
 
+#vertragingstijd
 def callback():
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
@@ -63,6 +64,7 @@ def callback():
         a = ("Geen vertraging" + "\n")
         return a
 
+#aantal overstappen
 def overstappen():
 
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
@@ -72,6 +74,7 @@ def overstappen():
     schrijf_xml(datainfo,infonaam)
     return "Overstappen: " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['AantalOverstappen'] + "\n"
 
+#het traject
 def traj():
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
@@ -81,32 +84,75 @@ def traj():
     a = "Traject: " + str(E2.get()) + " - " + str(E1.get()) + "\n"
     return a
 
+#de actuele vertrektijden (incl. vertraging)
 def vtt():
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
+
     return "Actuele vertrektijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleVertrekTijd'] + "\n"
 
+#de actuele aankomsttijden (incl. vertraging)
+def att():
+    url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
+    infonaam = 'informatie.xml'
+    datainfo = url.content.decode('utf-8')
+    info_dict = verwerk_xml(infonaam)
+    schrijf_xml(datainfo,infonaam)
+    return "Actuele aankomsttijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleAankomstTijd'] + "\n"
 
+#vervoerder
+def ver():
+    url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
+    infonaam = 'informatie.xml'
+    datainfo = url.content.decode('utf-8')
+    info_dict = verwerk_xml(infonaam)
+    schrijf_xml(datainfo,infonaam)
 
+    return "Vervoerder:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ReisDeel']['Vervoerder'] + "\n"
+
+#vervoerstype
+def typ():
+    url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
+    infonaam = 'informatie.xml'
+    datainfo = url.content.decode('utf-8')
+    info_dict = verwerk_xml(infonaam)
+    schrijf_xml(datainfo,infonaam)
+
+    return "Vervoertype:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ReisDeel']['VervoerType'] + "\n"
+
+#status van het traject
+def status():
+    url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
+    infonaam = 'informatie.xml'
+    datainfo = url.content.decode('utf-8')
+    info_dict = verwerk_xml(infonaam)
+    schrijf_xml(datainfo,infonaam)
+
+    return "Status:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ReisDeel']['Status'] + "\n"
+
+#roept beide functies voor de zoekknop
 def beidefunctie():
     callback()
     textinfo()
 
-
+#de textbox na het klikken van zoek
 def textinfo():
     E4 = Text(window2,height =15 , width = 50,bg = 'blue',foreground = 'white')
     E4.place(x=200, y=200, anchor=NW)
     E4.pack
     E4.insert(END,traj())
+    E4.insert(END,ver())
+    E4.insert(END,typ())
     E4.insert(END,overstappen())
-    E4.insert(END,vtt())
+    E4.insert(END,status())
     E4.insert(END,callback())
+    E4.insert(END,vtt())
+    E4.insert(END,att())
 
-
-
+#schrijven van de xml
 def schrijf_xml(response,infonaam):
     bestandinfo = open(infonaam,'w')
     bestandinfo.write(str(response))
