@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+<ReisMogelijkheden>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+						<Melding>
+							<Id></Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, latere aankomst</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>1:18</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:21</ActueleReisTijd>
+			
+			
+			
+				<AankomstVertraging>+3 min</AankomstVertraging>
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T11:21:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T11:21:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T12:39:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T12:42:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VERTRAAGD</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>5638</RitNummer>
+             			
+                        
+                              <Status>VERTRAAGD</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T11:21:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Wezep</Naam>
+									<Tijd>2015-10-28T11:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>'t Harde</Naam>
+									<Tijd>2015-10-28T11:35:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nunspeet</Naam>
+									<Tijd>2015-10-28T11:41:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Harderwijk</Naam>
+									<Tijd>2015-10-28T11:49:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Ermelo</Naam>
+									<Tijd>2015-10-28T11:53:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Putten</Naam>
+									<Tijd>2015-10-28T11:57:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nijkerk</Naam>
+									<Tijd>2015-10-28T12:03:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Vathorst</Naam>
+									<Tijd>2015-10-28T12:08:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Schothorst</Naam>
+									<Tijd>2015-10-28T12:12:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T12:18:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Den Dolder</Naam>
+									<Tijd>2015-10-28T12:26:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Bilthoven</Naam>
+									<Tijd>2015-10-28T12:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Overvecht</Naam>
+									<Tijd>2015-10-28T12:35:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T12:39:00+0100</Tijd>
+								
+									<VertrekVertraging>+3 min</VertrekVertraging>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">2</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id></Id>
+							<Ernstig>true</Ernstig>
+							<Text>Dit reisadvies vervalt</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:53</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:53</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T11:48:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T11:48:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T12:41:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T12:41:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>NIET-MOGELIJK</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>12538</RitNummer>
+             			
+                        
+                              <Status>GEANNULEERD</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T11:48:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">5</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T12:26:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T12:41:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">8</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+						<Melding>
+							<Id></Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, latere aankomst</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>1:18</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:23</ActueleReisTijd>
+			
+			
+			
+				<AankomstVertraging>+5 min</AankomstVertraging>
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T11:51:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T11:51:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T13:09:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T13:14:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VERTRAAGD</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>5640</RitNummer>
+             			
+                        
+                              <Status>VERTRAAGD</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T11:51:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Wezep</Naam>
+									<Tijd>2015-10-28T11:59:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>'t Harde</Naam>
+									<Tijd>2015-10-28T12:05:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nunspeet</Naam>
+									<Tijd>2015-10-28T12:11:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Harderwijk</Naam>
+									<Tijd>2015-10-28T12:19:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Ermelo</Naam>
+									<Tijd>2015-10-28T12:23:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Putten</Naam>
+									<Tijd>2015-10-28T12:27:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nijkerk</Naam>
+									<Tijd>2015-10-28T12:33:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Vathorst</Naam>
+									<Tijd>2015-10-28T12:38:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Schothorst</Naam>
+									<Tijd>2015-10-28T12:42:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T12:48:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Den Dolder</Naam>
+									<Tijd>2015-10-28T12:56:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Bilthoven</Naam>
+									<Tijd>2015-10-28T12:59:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Overvecht</Naam>
+									<Tijd>2015-10-28T13:05:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T13:09:00+0100</Tijd>
+								
+									<VertrekVertraging>+5 min</VertrekVertraging>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">2</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:53</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:53</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T12:18:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T12:18:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T13:11:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T13:11:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>540</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T12:18:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false"></Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T12:56:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T13:11:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false"></Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>1:18</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:18</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T12:21:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T12:21:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T13:39:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T13:39:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>5642</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T12:21:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Wezep</Naam>
+									<Tijd>2015-10-28T12:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>'t Harde</Naam>
+									<Tijd>2015-10-28T12:35:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nunspeet</Naam>
+									<Tijd>2015-10-28T12:41:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Harderwijk</Naam>
+									<Tijd>2015-10-28T12:49:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Ermelo</Naam>
+									<Tijd>2015-10-28T12:53:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Putten</Naam>
+									<Tijd>2015-10-28T12:57:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nijkerk</Naam>
+									<Tijd>2015-10-28T13:03:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Vathorst</Naam>
+									<Tijd>2015-10-28T13:08:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Schothorst</Naam>
+									<Tijd>2015-10-28T13:12:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T13:18:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Den Dolder</Naam>
+									<Tijd>2015-10-28T13:26:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Bilthoven</Naam>
+									<Tijd>2015-10-28T13:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Overvecht</Naam>
+									<Tijd>2015-10-28T13:35:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T13:39:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">2</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:53</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:53</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T12:48:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T12:48:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T13:41:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T13:41:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>12542</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T12:48:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">5</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T13:26:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T13:41:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">8</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>1:18</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:18</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T12:51:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T12:51:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T14:09:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T14:09:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>5644</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T12:51:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Wezep</Naam>
+									<Tijd>2015-10-28T12:59:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>'t Harde</Naam>
+									<Tijd>2015-10-28T13:05:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nunspeet</Naam>
+									<Tijd>2015-10-28T13:11:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Harderwijk</Naam>
+									<Tijd>2015-10-28T13:19:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Ermelo</Naam>
+									<Tijd>2015-10-28T13:23:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Putten</Naam>
+									<Tijd>2015-10-28T13:27:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nijkerk</Naam>
+									<Tijd>2015-10-28T13:33:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Vathorst</Naam>
+									<Tijd>2015-10-28T13:38:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Schothorst</Naam>
+									<Tijd>2015-10-28T13:42:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T13:48:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Den Dolder</Naam>
+									<Tijd>2015-10-28T13:56:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Bilthoven</Naam>
+									<Tijd>2015-10-28T13:59:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Overvecht</Naam>
+									<Tijd>2015-10-28T14:05:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T14:09:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">2</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:53</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:53</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>true</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T13:18:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T13:18:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T14:11:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T14:11:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>544</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T13:18:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T13:56:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T14:11:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">8b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>1:18</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:18</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T13:21:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T13:21:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T14:39:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T14:39:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>5646</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T13:21:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Wezep</Naam>
+									<Tijd>2015-10-28T13:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>'t Harde</Naam>
+									<Tijd>2015-10-28T13:35:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nunspeet</Naam>
+									<Tijd>2015-10-28T13:41:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Harderwijk</Naam>
+									<Tijd>2015-10-28T13:49:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Ermelo</Naam>
+									<Tijd>2015-10-28T13:53:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Putten</Naam>
+									<Tijd>2015-10-28T13:57:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nijkerk</Naam>
+									<Tijd>2015-10-28T14:03:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Vathorst</Naam>
+									<Tijd>2015-10-28T14:08:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Schothorst</Naam>
+									<Tijd>2015-10-28T14:12:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T14:18:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Den Dolder</Naam>
+									<Tijd>2015-10-28T14:26:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Bilthoven</Naam>
+									<Tijd>2015-10-28T14:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Overvecht</Naam>
+									<Tijd>2015-10-28T14:35:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T14:39:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">2</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:53</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:53</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T13:48:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T13:48:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T14:41:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T14:41:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>12546</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T13:48:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">5</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T14:26:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T14:41:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">8</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>1:18</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:18</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T13:51:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T13:51:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T15:09:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T15:09:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>5648</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T13:51:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Wezep</Naam>
+									<Tijd>2015-10-28T13:59:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>'t Harde</Naam>
+									<Tijd>2015-10-28T14:05:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nunspeet</Naam>
+									<Tijd>2015-10-28T14:11:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Harderwijk</Naam>
+									<Tijd>2015-10-28T14:19:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Ermelo</Naam>
+									<Tijd>2015-10-28T14:23:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Putten</Naam>
+									<Tijd>2015-10-28T14:27:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nijkerk</Naam>
+									<Tijd>2015-10-28T14:33:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Vathorst</Naam>
+									<Tijd>2015-10-28T14:38:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Schothorst</Naam>
+									<Tijd>2015-10-28T14:42:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T14:48:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Den Dolder</Naam>
+									<Tijd>2015-10-28T14:56:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Bilthoven</Naam>
+									<Tijd>2015-10-28T14:59:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Overvecht</Naam>
+									<Tijd>2015-10-28T15:05:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T15:09:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">1</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id>prio-73816</Id>
+							<Ernstig>true</Ernstig>
+							<Text>Let op, verstoring Zwolle - Utrecht Centraal</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:53</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:53</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T14:18:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T14:18:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T15:11:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T15:11:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>548</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+							<OngeplandeStoringId>prio-73816</OngeplandeStoringId>
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T14:18:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T14:56:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T15:11:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">8b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>1:18</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:18</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2015-10-28T14:21:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2015-10-28T14:21:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2015-10-28T15:39:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2015-10-28T15:39:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>5650</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2015-10-28T14:21:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Wezep</Naam>
+									<Tijd>2015-10-28T14:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>'t Harde</Naam>
+									<Tijd>2015-10-28T14:35:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nunspeet</Naam>
+									<Tijd>2015-10-28T14:41:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Harderwijk</Naam>
+									<Tijd>2015-10-28T14:49:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Ermelo</Naam>
+									<Tijd>2015-10-28T14:53:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Putten</Naam>
+									<Tijd>2015-10-28T14:57:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Nijkerk</Naam>
+									<Tijd>2015-10-28T15:03:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Vathorst</Naam>
+									<Tijd>2015-10-28T15:08:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort Schothorst</Naam>
+									<Tijd>2015-10-28T15:12:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amersfoort</Naam>
+									<Tijd>2015-10-28T15:18:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Den Dolder</Naam>
+									<Tijd>2015-10-28T15:26:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Bilthoven</Naam>
+									<Tijd>2015-10-28T15:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Overvecht</Naam>
+									<Tijd>2015-10-28T15:35:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2015-10-28T15:39:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">2</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+</ReisMogelijkheden>
+			
