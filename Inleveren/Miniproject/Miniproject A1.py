@@ -78,8 +78,10 @@ def overstappen():
         nietoverstap = ("Error geen overstap info beschikbaar \n")
         return nietoverstap
 
-#het traject
+
+
 def traj():
+    """het traject wordt opgevraagd en opgeslagen in het functie traj"""
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
@@ -91,8 +93,9 @@ def traj():
         geentraject = ("Error geen traject info beschikbaar \n")
         return geentraject
 
-#de actuele vertrektijden (incl. vertraging)
+#
 def vtt():
+    """de actuele vertrektijden (incl. vertraging) worden opgevraagd en opgeslagen in het functie vtt"""
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
@@ -106,6 +109,7 @@ def vtt():
 
 #de actuele aankomsttijden (incl. vertraging)
 def att():
+    """de actuele aankomsttijden (incl. vertraging) worden opgevraagd en opgeslagen in het functie att"""
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
@@ -117,8 +121,9 @@ def att():
         geenaankomst = ("Error geen aankomsttijden beschikbaar \n" )
         return geenaankomst
 
-#vervoerder
+
 def ver():
+    """ vervoerder informatie worden opgevraagd en opgeslagen in het functie ver"""
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
@@ -130,8 +135,9 @@ def ver():
         geenvervoerder = ("Error geen vervoerder info beschikbaar \n")
         return geenvervoerder
 
-#vervoerstype
+
 def typ():
+    """ Vervoertype informatie worden opgevraagd en opgeslagen in het functie typ"""
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
@@ -145,6 +151,7 @@ def typ():
 
 #status van het traject
 def status():
+    """ Status van het traject wordt opgevraag en opgeslagen in het functie status"""
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
@@ -157,6 +164,7 @@ def status():
         return geenstatus
 
 def sp():
+    """ Spoor informatie wordt opgevraagd en opgeslagen in het functie sp"""
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
@@ -168,13 +176,15 @@ def sp():
         geenspoorinfo = ("Geen spoor info beschikbaar")
         return geenspoorinfo
 
-#roept beide functies voor de zoekknop
+
 def beidefunctie():
+    """ Functie's callback en textinfo laten lopen in het functie beidefunctie"""
     callback()
     textinfo()
 
-#de textbox na het klikken van zoek
+
 def textinfo():
+    """ De textbox na het drukken van het knop zoeken starten"""
     E4 = Text(window2,height =15 , width = 50,bg = 'blue',foreground = 'white')
     E4.place(x=200, y=200, anchor=NW)
     E4.pack
@@ -188,20 +198,22 @@ def textinfo():
     E4.insert(END,att())
     E4.insert(END,sp())
 
-#schrijven van de xml
+
 def schrijf_xml(response,infonaam):
+    """ Wegschrijven naar de xml bestand"""
     bestandinfo = open(infonaam,'w')
     bestandinfo.write(str(response))
     bestandinfo.close()
 
-#de xml wordt geparse naar een dict
+
 def verwerk_xml (infonaam):
+    """ De xml wordt geparse naar een dict"""
     bestand = open(infonaam,'r')
     xml_string = bestand.read()       # informatie van de velden worden verwerkt om hier een url van te maken
     return xmltodict.parse(xml_string)
 
 
-#Hoofdmenu
+#Hoofdmenu wordt hieronder aangemaakt inclusief de knop Reisinformatie
 window = Tk()
 p = PhotoImage(file="lol.png")
 label = Label(window,image = p)
