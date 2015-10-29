@@ -31,8 +31,8 @@ def Gui2():
     E1 = Entry(window2,bd=5)
     E1.pack(side= LEFT)
     E1.place(x=185, y=75, anchor=NW)
-    #textbox naar station
 
+    #textbox naar station
     L2 = Label( window2,text = " naar station ")
     L2.pack(side = LEFT)
     L2.place(x=390, y=75, anchor=NW)
@@ -40,8 +40,6 @@ def Gui2():
     E2 = Entry(window2,bd=5)
     E2.pack(side= LEFT)
     E2.place(x=465, y=75, anchor=NW)
-
-
 
 
     buttonzoek = Button(window2,text = "zoek",width = 15,bd = 15 ,bg = 'blue' , foreground = 'white', command = beidefunctie)
@@ -56,13 +54,13 @@ def callback():
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
 
-
     try:
         return "Vertraging: " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['AankomstVertraging'] + "\n"
 
     except:
         a = ("Geen vertraging" + "\n")
         return a
+
 
 #aantal overstappen
 def overstappen():
@@ -72,7 +70,13 @@ def overstappen():
     datainfo = url.content.decode('utf-8')
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
-    return "Overstappen: " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['AantalOverstappen'] + "\n"
+
+    try:
+        return "Overstappen: " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['AantalOverstappen'] + "\n"
+
+    except:
+        nietoverstap = ("Error geen overstap info beschikbaar \n")
+        return nietoverstap
 
 #het traject
 def traj():
@@ -80,9 +84,12 @@ def traj():
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
     schrijf_xml(datainfo,infonaam)
-
-    a = "Traject: " + str(E2.get()) + " - " + str(E1.get()) + "\n"
-    return a
+    try:
+        a = ("Traject: " + str(E1.get()) + " - " + str(E2.get()) + "\n")
+        return a
+    except:
+        geentraject = ("Error geen traject info beschikbaar \n")
+        return geentraject
 
 #de actuele vertrektijden (incl. vertraging)
 def vtt():
@@ -91,8 +98,11 @@ def vtt():
     datainfo = url.content.decode('utf-8')
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
-
-    return "Actuele vertrektijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleVertrekTijd'] + "\n"
+    try:
+        return ("Actuele vertrektijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleVertrekTijd'] + "\n")
+    except:
+        geenvertrektijden = ("Error geen vertrektijden beschikbaar \n")
+        return geenvertrektijden
 
 #de actuele aankomsttijden (incl. vertraging)
 def att():
@@ -101,7 +111,11 @@ def att():
     datainfo = url.content.decode('utf-8')
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
-    return "Actuele aankomsttijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleAankomstTijd'] + "\n"
+    try:
+        return ("Actuele aankomsttijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleAankomstTijd'] + "\n")
+    except:
+        geenaankomst = ("Error geen aankomsttijden beschikbaar \n" )
+        return geenaankomst
 
 #vervoerder
 def ver():
@@ -110,8 +124,11 @@ def ver():
     datainfo = url.content.decode('utf-8')
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
-
-    return "Vervoerder:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ReisDeel']['Vervoerder'] + "\n"
+    try:
+        return "Vervoerder:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ReisDeel']['Vervoerder'] + "\n"
+    except:
+        geenvervoerder = ("Error geen vervoerder info beschikbaar \n")
+        return geenvervoerder
 
 #vervoerstype
 def typ():
@@ -120,8 +137,11 @@ def typ():
     datainfo = url.content.decode('utf-8')
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
-
-    return "Vervoertype:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ReisDeel']['VervoerType'] + "\n"
+    try:
+        return ("Vervoertype:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ReisDeel']['VervoerType'] + "\n")
+    except:
+        geentype = ("Geen vervoerstype info beschikbaar \n")
+        return geentype
 
 #status van het traject
 def status():
@@ -130,8 +150,23 @@ def status():
     datainfo = url.content.decode('utf-8')
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
+    try:
+        return ("Status:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ReisDeel']['Status'] + "\n")
+    except:
+        geenstatus = ("Geen status beschikbaar \n")
+        return geenstatus
 
-    return "Status:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ReisDeel']['Status'] + "\n"
+def sp():
+    url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
+    infonaam = 'informatie.xml'
+    datainfo = url.content.decode('utf-8')
+    info_dict = verwerk_xml(infonaam)
+    schrijf_xml(datainfo,infonaam)
+    try:
+        return ("Spoor: " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ReisDeel']['ReisStop'][0]['Spoor']['#text'] + "\n")
+    except:
+        geenspoorinfo = ("Geen spoor info beschikbaar")
+        return geenspoorinfo
 
 #roept beide functies voor de zoekknop
 def beidefunctie():
@@ -151,6 +186,7 @@ def textinfo():
     E4.insert(END,callback())
     E4.insert(END,vtt())
     E4.insert(END,att())
+    E4.insert(END,sp())
 
 #schrijven van de xml
 def schrijf_xml(response,infonaam):
@@ -163,12 +199,6 @@ def verwerk_xml (infonaam):
     bestand = open(infonaam,'r')
     xml_string = bestand.read()       # informatie van de velden worden verwerkt om hier een url van te maken
     return xmltodict.parse(xml_string)
-
-
-
-
-
-
 
 
 #Hoofdmenu
