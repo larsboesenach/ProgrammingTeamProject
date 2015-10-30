@@ -1,4 +1,4 @@
 # ProgrammingTeamProject
 Dit is de git repository voor het teamproject.
 
-U gaat eerst op github naar de map Inleveren/Miniproject vervolgens
+Ga rechts onderin naar Download zip dan pack je het bestand uit, vervolgens ga je naar de map Inleveren/Miniproject en klik je op de 
