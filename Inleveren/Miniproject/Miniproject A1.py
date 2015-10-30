@@ -4,8 +4,8 @@ import xmltodict
 from tkinter import *
 
 
+#NS api wordt aangeroepen met de juist usernaam en wachtwoord vervolgens wordt met een get alle data gedownload
 def callNSAPI(req,auth_details):
-    """NS api wordt aangeroepen met de juist usernaam en wachtwoord vervolgens wordt met een get alle data gedownload """
     try:
         response = requests.get(req,auth = auth_details)
         return response
@@ -34,7 +34,6 @@ def Gui2():
     E1.place(x=185, y=75, anchor=NW)
 
     #textbox naar station
-
     L2 = Label( window2,text = " naar station ")
     L2.pack(side = LEFT)
     L2.place(x=390, y=75, anchor=NW)
@@ -48,9 +47,8 @@ def Gui2():
     buttonzoek.place(relx=.4, rely=.3, anchor="sw")
 
 
-
+#vertragingstijd
 def callback():
-    """het vertragingstijd wordt opgevraagd en opgeslagen in het functie traj"""
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
@@ -65,9 +63,9 @@ def callback():
         return a
 
 
-
+#aantal overstappen
 def overstappen():
-    """het overstappen wordt opgevraagd en opgeslagen in het functie traj"""
+
     url = callNSAPI('http://webservices.ns.nl/ns-api-treinplanner?fromStation='+E2.get()+'&toStation='+ E1.get(),auth_details)
     infonaam = 'informatie.xml'
     datainfo = url.content.decode('utf-8')
@@ -105,7 +103,7 @@ def vtt():
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
     try:
-        return ("Actuele vertrektijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleVertrekTijd'] + "\n")
+        return ("Actuele vertrektijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleVertrekTijd'][11:16] + "\n")
     except:
         geenvertrektijden = ("Error geen vertrektijden beschikbaar \n")
         return geenvertrektijden
@@ -119,7 +117,7 @@ def att():
     info_dict = verwerk_xml(infonaam)
     schrijf_xml(datainfo,infonaam)
     try:
-        return ("Actuele aankomsttijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleAankomstTijd'] + "\n")
+        return ("Actuele aankomsttijd:  " + info_dict['ReisMogelijkheden']['ReisMogelijkheid'][0]['ActueleAankomstTijd'][11:16] + "\n")
     except:
         geenaankomst = ("Error geen aankomsttijden beschikbaar \n" )
         return geenaankomst
@@ -228,6 +226,3 @@ button1.place(relx=.6, rely=.7, anchor="sw")
 
 
 window.mainloop()
-
-
-
