@@ -214,7 +214,7 @@ def verwerk_xml (infonaam):
     return xmltodict.parse(xml_string)
 
 
-#Hoofdmenu wordt hieronder aangemaakt inclusief de knop Reisinformatie
+#Hoofdmenu wordt hieronder aangemaakt inclusief de knop Resinformatie
 window = Tk()
 p = PhotoImage(file="lol.png")
 label = Label(window,image = p)
